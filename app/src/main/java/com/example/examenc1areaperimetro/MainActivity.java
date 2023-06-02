@@ -1,7 +1,6 @@
 package com.example.examenc1areaperimetro;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -45,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Cerrar aplicación");
-                builder.setMessage("¿Estás seguro de que quieres cerrar la aplicación?");
+                builder.setMessage("¿ Estás seguro de que quieres cerrar la aplicación ?");
                 builder.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -57,8 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 dialog.show();
             }
         });
-
-
 
     }
 
